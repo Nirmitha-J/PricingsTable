@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.card{
+  border-radius: 1.25rem !important;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  bottom: 10px;
+  transition: all 0.2s;
+  
+}
+
+
+  
+
+.rowContainer{
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.list-group-item {
+  border: 0 !important;
+}
+
+.leftAlign{
+  text-align: left;
+}
+
+.marginLeft{
+  margin-left: 10px;
+}
+
+.btn {
+  font-size: 15px !important;
+  letter-spacing: .1rem !important;
+  font-weight: bold !important;
+  background-color: rgb(51, 136, 248) !important;
+  opacity: 0.7;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
